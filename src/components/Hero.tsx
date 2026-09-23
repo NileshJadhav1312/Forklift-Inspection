@@ -27,8 +27,29 @@ const items = [
 
 export default function Hero() {
   return (
-    <section className="bg-surface">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-5 py-14 sm:px-6 md:py-16 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-20">
+    <section className="relative overflow-hidden bg-surface">
+      {/* =========================================
+          DESKTOP-ONLY BLUE BACKGROUND SECTION
+      ========================================= */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          right-0
+          top-0
+          hidden
+          h-[86%]
+          w-[43%]
+          rounded-bl-[56px]
+          bg-gradient-to-br
+          from-[#063340]
+          to-[#0c4a5c]
+          lg:block
+          xl:w-[45%]
+        "
+      />
+
+      <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-5 py-14 sm:px-6 md:py-16 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-20">
         {/* =========================================
             LEFT SIDE - HERO CONTENT
         ========================================= */}
@@ -51,21 +72,27 @@ export default function Hero() {
             identify issues before their equipment is used.
           </p>
 
-          {/* Buttons */}
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+          {/* Buttons (Aligned in one line row on mobile) */}
+          <div className="mt-8 flex flex-row items-center gap-2.5 sm:gap-4">
             <a
               href="#checklist"
-              className="rounded-md
+              className="
+                flex-1
+                rounded-md
                 bg-primary
-                px-5
+                px-3.5
                 py-3
-                text-sm
+                text-center
+                text-xs
                 font-semibold
                 text-white
+                whitespace-nowrap
                 transition
                 hover:opacity-90
+                sm:flex-initial
                 sm:px-6
                 sm:py-3.5
+                sm:text-sm
               "
             >
               Get the Checklist
@@ -74,19 +101,24 @@ export default function Hero() {
             <a
               href="#checklist"
               className="
+                flex-1
                 rounded-md
                 border
                 border-border
                 bg-white
-                px-5
+                px-3.5
                 py-3
-                text-sm
+                text-center
+                text-xs
                 font-semibold
                 text-text-main
+                whitespace-nowrap
                 transition
                 hover:bg-gray-50
+                sm:flex-initial
                 sm:px-6
                 sm:py-3.5
+                sm:text-sm
               "
             >
               See What's Included
@@ -103,44 +135,35 @@ export default function Hero() {
             RIGHT SIDE - CHECKLIST PREVIEW
         ========================================= */}
         <div className="flex justify-center lg:justify-end">
-          <div className="relative w-full max-w-[280px] sm:max-w-sm md:max-w-md">
-            {/* -------------------------------------
-                BACKING CARD (All sides)
-            ------------------------------------- */}
+          <div className="relative w-full max-w-[300px] sm:max-w-sm md:max-w-md">
+            {/* Frosted Glass Outer Container */}
             <div
               className="
-                absolute
-                -inset-2.5
-                rounded-[22px]
-                bg-gradient-to-br
-                from-slate-800
-                to-teal-700
-                opacity-90
-                shadow-xl
-                shadow-slate-900/15
-                sm:-inset-3.5
-                sm:rounded-[28px]
-              "
-            />
-
-            {/* -------------------------------------
-                MAIN CHECKLIST CARD
-            ------------------------------------- */}
-            <div
-              className="
-                relative
-                rounded-2xl
-                bg-white
-                p-3.5
-                shadow-xl
-                shadow-slate-900/10
+                rounded-3xl
+                bg-white/40
+                p-2.5
+                backdrop-blur-md
                 ring-1
-                ring-border
-                sm:rounded-3xl
-                sm:p-5
-                md:p-6
+                ring-white/70
+                shadow-2xl
+                shadow-slate-900/10
+                sm:p-3.5
               "
             >
+              {/* Main Checklist Card */}
+              <div
+                className="
+                  rounded-2xl
+                  bg-white
+                  p-3.5
+                  shadow-sm
+                  ring-1
+                  ring-border/80
+                  sm:rounded-[22px]
+                  sm:p-5
+                  md:p-6
+                "
+              >
               {/* Card Header */}
               <h2
                 className="
@@ -349,6 +372,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+    </div>
 
       {/* =========================================
           TRUSTED TEAMS
