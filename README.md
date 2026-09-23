@@ -112,47 +112,12 @@ All user-facing copy and structured content are decoupled from the UI logic and 
 
 ---
 
-## 🚀 Getting Started
+## 🔗 Links & Deployment
 
-### 1. Prerequisites
-- **Node.js**: v18.18.0 or newer
-- **npm**: v9 or newer
+- **Live Deployment (Vercel)**: [https://forklift-inspection-eosin.vercel.app/](https://forklift-inspection-eosin.vercel.app/)
+- **GitHub Repository**: [https://github.com/NileshJadhav1312/Forklift-Inspection.git](https://github.com/NileshJadhav1312/Forklift-Inspection.git)
 
-### 2. Installation
-Clone the repository and install dependencies:
+### Clone Repository
 ```bash
 git clone https://github.com/NileshJadhav1312/Forklift-Inspection.git
-cd Forklift-Inspection
-npm install
 ```
-
-### 3. Development Server
-Run the local dev server:
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 4. Production Build
-Verify the production build:
-```bash
-npm run build
-```
-
-### 5. Linting
-Run ESLint to check code quality:
-```bash
-npm run lint
-```
-
----
-
-## 🚢 Deployment
-
-- **Live URL**: [https://forklift-inspection-eosin.vercel.app/](https://forklift-inspection-eosin.vercel.app/)
-
-This project is configured for deployment on **[Vercel](https://vercel.com/)**:
-1. Push your repository to GitHub.
-2. Import the repository into your Vercel Dashboard.
-3. Vercel automatically detects Next.js and runs `npm run build`.
-4. Your application will be deployed with global edge caching and CDN optimization.
