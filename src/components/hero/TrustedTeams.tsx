@@ -104,13 +104,13 @@ const iconMap = {
 export default function TrustedTeams() {
   return (
     <div className="relative z-10 border-t border-border/70 bg-surface/60 py-4 backdrop-blur-sm sm:py-7">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-7 sm:px-6 lg:px-8">
         <p className="text-center text-xs font-semibold text-text-main sm:text-sm md:text-base">
           Trusted by teams that need consistent inspections
         </p>
 
         {/* Team Badges Grid */}
-        <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-4 sm:grid-cols-3 sm:gap-x-6 sm:gap-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-6 xl:gap-8">
+        <div className="mx-auto mt-5 grid max-w-sm grid-cols-2 gap-x-6 gap-y-4 sm:max-w-none sm:grid-cols-3 sm:gap-x-6 sm:gap-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-6 xl:gap-8">
           {trustedTeamsData.map((team) => (
             <TeamCard
               key={team.id}
