@@ -1,0 +1,32 @@
+[
+  {
+    "id": "apex",
+    "title": "Apex",
+    "subtitle": "Logistics"
+  },
+  {
+    "id": "sterling",
+    "title": "Sterling",
+    "subtitle": "Manufacturing"
+  },
+  {
+    "id": "buildright",
+    "title": "BuildRight",
+    "subtitle": "Construction"
+  },
+  {
+    "id": "vanguard",
+    "title": "Vanguard",
+    "subtitle": "Operations"
+  },
+  {
+    "id": "global",
+    "title": "Global",
+    "subtitle": "Warehousing Solutions"
+  },
+  {
+    "id": "prime",
+    "title": "Prime",
+    "subtitle": "Distribution"
+  }
+]

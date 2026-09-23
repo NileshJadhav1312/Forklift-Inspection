@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What should be checked during a forklift inspection?",
+    "answer": "A standard forklift inspection covers both pre-operational and operational checks. Pre-operational checks include checking fluid levels (engine oil, coolant, hydraulic fluid), tire condition and pressure, forks, mast, hoses, chains, and the overhead guard. Operational checks involve testing the brakes, steering, lift/tilt controls, horn, warning lights, backup alarm, and seat belt."
+  },
+  {
+    "question": "How often should a forklift be inspected?",
+    "answer": "According to OSHA standards, forklifts must be inspected at least daily before being placed in service. If the forklift is used on a round-the-clock basis across multiple shifts, it must be inspected after each shift before being handed over to the next operator."
+  },
+  {
+    "question": "Can this checklist be used for daily inspections?",
+    "answer": "Yes, this checklist is specifically structured for daily pre-shift inspections across all standard industrial and warehouse forklifts to ensure operator safety and regulatory compliance."
+  },
+  {
+    "question": "What should I do if I find a defect?",
+    "answer": "If any defect, mechanical malfunction, or safety hazard is identified, immediately tag the forklift out of service, remove the key to prevent unauthorized use, and report the condition to your supervisor or maintenance department."
+  },
+  {
+    "question": "Can I customize the checklist?",
+    "answer": "Yes, the checklist can be tailored to fit your facility's specific equipment types—such as electric, diesel, or LPG forklifts—as well as specialized attachments and operational workflows."
+  }
+]

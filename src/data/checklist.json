@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Forks and mast",
+    "description": "Description or sensor of Forks and mast.",
+    "note": "Add a open note (optional)",
+    "noteType": "input"
+  },
+  {
+    "id": 2,
+    "title": "Tires and wheels",
+    "description": "Description or inspection of Tires and wheels.",
+    "note": "Use note here...",
+    "noteType": "input"
+  },
+  {
+    "id": 3,
+    "title": "Brakes",
+    "description": "Description or inspection and brakes.",
+    "note": "Keed need maintenance",
+    "noteType": "alert"
+  },
+  {
+    "id": 4,
+    "title": "Steering",
+    "description": "Description or steering mechanism and steering.",
+    "note": "Use note here...",
+    "noteType": "input"
+  },
+  {
+    "id": 5,
+    "title": "Warning devices",
+    "description": "Description of operations of warning devices.",
+    "note": "Need a maintenance",
+    "noteType": "warning"
+  },
+  {
+    "id": 6,
+    "title": "Seat belt / restraint",
+    "description": "Description or condition of seat belt / restraint.",
+    "note": "Add a open note (optional)",
+    "noteType": "input"
+  }
+]

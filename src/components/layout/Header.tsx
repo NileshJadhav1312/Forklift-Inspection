@@ -1,8 +1,9 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
+// Main application header providing branding, navigation links, and responsive mobile menu
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,7 +14,7 @@ export default function Header() {
         {/* Logo */}
         <a
           href="#"
-          className="text-xl font-bold tracking-tight text-text-main"
+          className="text-2xl sm:text-[26px] font-black tracking-tight text-text-main"
         >
           InspectPro
         </a>
@@ -21,29 +22,30 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-8 md:flex">
           <a
-            href="#"
-            className="text-sm font-medium text-text-main transition hover:text-primary"
+            href="#features"
+            className="text-[19px] font-normal text-text-main transition hover:text-primary"
           >
             Products
           </a>
 
           <a
-            href="#"
-            className="text-sm font-medium text-text-main transition hover:text-primary"
+            href="#industries"
+            className="text-[19px] font-normal text-text-main transition hover:text-primary"
           >
             Solutions
           </a>
 
-          <a
-            href="#"
-            className="text-sm font-medium text-text-main transition hover:text-primary"
+          <button
+            type="button"
+            className="flex items-center gap-1.5 text-[19px] font-normal text-text-main transition hover:text-primary"
           >
-            Resources
-          </a>
+            <span>Resources</span>
+            <ChevronDown size={19} />
+          </button>
 
           <a
             href="#"
-            className="text-sm font-medium text-text-main transition hover:text-primary"
+            className="text-[19px] font-normal text-text-main transition hover:text-primary"
           >
             Pricing
           </a>
@@ -53,14 +55,14 @@ export default function Header() {
         <div className="hidden items-center gap-6 md:flex">
           <a
             href="#"
-            className="text-sm font-medium text-text-main transition hover:text-primary"
+            className="text-[19px] font-normal text-text-main transition hover:text-primary"
           >
             Login
           </a>
 
           <a
             href="#checklist"
-            className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-90"
+            className="rounded-md bg-primary px-5 py-2.5 text-base font-normal text-white transition hover:opacity-90"
           >
             Get Started
           </a>
@@ -73,7 +75,7 @@ export default function Header() {
           className="text-text-main md:hidden"
           aria-label="Toggle navigation"
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
       </div>
 
@@ -83,7 +85,7 @@ export default function Header() {
           <nav className="flex flex-col gap-5">
             <a
               href="#"
-              className="text-sm font-medium text-text-main"
+              className="text-[19px] font-normal text-text-main"
               onClick={() => setIsMenuOpen(false)}
             >
               Products
@@ -91,23 +93,23 @@ export default function Header() {
 
             <a
               href="#"
-              className="text-sm font-medium text-text-main"
+              className="text-[19px] font-normal text-text-main"
               onClick={() => setIsMenuOpen(false)}
             >
               Solutions
             </a>
 
-            <a
-              href="#"
-              className="text-sm font-medium text-text-main"
-              onClick={() => setIsMenuOpen(false)}
+            <button
+              type="button"
+              className="flex w-full items-center justify-between text-[19px] font-normal text-text-main"
             >
-              Resources
-            </a>
+              <span>Resources</span>
+              <ChevronDown size={19} />
+            </button>
 
             <a
               href="#"
-              className="text-sm font-medium text-text-main"
+              className="text-[19px] font-normal text-text-main"
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
@@ -115,7 +117,7 @@ export default function Header() {
 
             <a
               href="#"
-              className="text-sm font-medium text-text-main"
+              className="text-[19px] font-normal text-text-main"
               onClick={() => setIsMenuOpen(false)}
             >
               Login
@@ -123,7 +125,7 @@ export default function Header() {
 
             <a
               href="#checklist"
-              className="w-fit rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white"
+              className="w-fit rounded-md bg-primary px-5 py-2.5 text-base font-normal text-white"
               onClick={() => setIsMenuOpen(false)}
             >
               Get Started

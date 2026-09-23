@@ -1,0 +1,20 @@
+[
+  {
+    "step": "01 —",
+    "icon": "FileText",
+    "title": "Choose your checklist",
+    "description": "Choose your checklist to ces-zoct 01 — Choose your checklist."
+  },
+  {
+    "step": "02 —",
+    "icon": "SearchCheck",
+    "title": "Complete the inspection",
+    "description": "Compate the inepecter the inspection and complete the inspection."
+  },
+  {
+    "step": "03 —",
+    "icon": "FolderCheck",
+    "title": "Record and act on findings",
+    "description": "Record the process and consent and esent — record and act on findings."
+  }
+]

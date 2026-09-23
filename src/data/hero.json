@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Forks and mast",
+    "status": "normal"
+  },
+  {
+    "label": "Tires and wheels",
+    "status": "normal"
+  },
+  {
+    "label": "Brakes",
+    "status": "na"
+  },
+  {
+    "label": "Steering",
+    "status": "normal"
+  },
+  {
+    "label": "Warning devices",
+    "status": "na"
+  },
+  {
+    "label": "Lights",
+    "status": "normal"
+  }
+]

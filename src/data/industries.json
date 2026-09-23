@@ -1,0 +1,20 @@
+[
+  {
+    "id": "warehouse",
+    "icon": "Warehouse",
+    "title": "Warehouse operations",
+    "description": "Warchouse opersttuns in warehouse operations and fow-shortenl stacrallons in warshouse aperations."
+  },
+  {
+    "id": "construction",
+    "icon": "HardHat",
+    "title": "Construction sites",
+    "description": "Construction sites ervport and conctrostion sites wan manutiusival facilities."
+  },
+  {
+    "id": "manufacturing",
+    "icon": "Factory",
+    "title": "Manufacturing facilities",
+    "description": "Manufacturing faelities are comervetieshovs and solutions for manufacturing facilities."
+  }
+]

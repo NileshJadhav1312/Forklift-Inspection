@@ -1,0 +1,26 @@
+[
+  {
+    "id": "standardize",
+    "icon": "ClipboardList",
+    "title": "Standardize inspections",
+    "description": "Standardize inspections consistent, incpections, undenvistens, and equipment."
+  },
+  {
+    "id": "identify-issues",
+    "icon": "AlertTriangle",
+    "title": "Identify issues early",
+    "description": "Identify icsues early for mocsure and consistent; ertentten eopearing staciates."
+  },
+  {
+    "id": "records-organized",
+    "icon": "FileText",
+    "title": "Keep inspection records organized",
+    "description": "Keep inspection records organized, and inspection records orgensed."
+  },
+  {
+    "id": "simple-process",
+    "icon": "Layers",
+    "title": "Give teams a simple process to follow",
+    "description": "Give teams a simple precess narvoooront procois precess to follow."
+  }
+]

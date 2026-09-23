@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Product",
+    "links": ["Features", "Templates", "Integrations"]
+  },
+  {
+    "title": "Solutions",
+    "links": ["by Industry", "by Function"]
+  },
+  {
+    "title": "Resources",
+    "links": ["Blog", "Help Center", "API"]
+  }
+]
