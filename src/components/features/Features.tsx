@@ -12,7 +12,7 @@ const iconMap = {
 // Features section highlighting key inspection benefits in a responsive grid of cards
 export default function Features() {
   return (
-    <section className="bg-white py-16 sm:py-20">
+    <section id="features" className="scroll-mt-10 bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Section Heading & Subtitle */}
         <div className="mx-auto max-w-2xl text-center">

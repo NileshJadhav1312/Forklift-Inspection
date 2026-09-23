@@ -36,7 +36,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="#checklist"
+              href="#features"
               className="flex-1 rounded-md border border-border bg-white px-3.5 py-2.5 text-center text-xs font-semibold text-text-main whitespace-nowrap transition hover:bg-gray-50 sm:flex-initial sm:px-6 sm:py-3.5 sm:text-sm"
             >
               See What&apos;s Included
