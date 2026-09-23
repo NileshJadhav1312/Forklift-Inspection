@@ -1,5 +1,7 @@
 # InspectPro — Forklift Inspection Checklist
 
+> 🚀 **Live Production Deployment**: [https://forklift-inspection-eosin.vercel.app/](https://forklift-inspection-eosin.vercel.app/)
+
 A modern, responsive Next.js web application designed for industrial teams, warehouse operators, and safety managers to conduct, track, and standardize daily equipment inspections.
 
 ---
@@ -146,6 +148,8 @@ npm run lint
 ---
 
 ## 🚢 Deployment
+
+- **Live URL**: [https://forklift-inspection-eosin.vercel.app/](https://forklift-inspection-eosin.vercel.app/)
 
 This project is configured for deployment on **[Vercel](https://vercel.com/)**:
 1. Push your repository to GitHub.

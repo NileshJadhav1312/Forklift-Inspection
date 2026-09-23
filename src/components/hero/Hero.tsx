@@ -5,39 +5,39 @@ import heroItems from "@/data/hero.json";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-surface">
-      <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-5 py-10 sm:px-6 md:grid-cols-2 md:gap-10 md:py-14 lg:gap-16 lg:px-8 lg:py-20">
+      <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-5 py-10 sm:px-6 md:py-14 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-20">
         {/* Left Side: Hero Content */}
-        <div>
+        <div className="text-center lg:text-left">
           {/* Eyebrow */}
           <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-text-main sm:mb-4">
             Forklift Safety
           </p>
 
           {/* Heading */}
-          <h1 className="max-w-[620px] text-3xl font-bold leading-[1.08] tracking-tight text-text-main sm:text-4xl md:text-[38px] lg:text-[52px]">
+          <h1 className="mx-auto max-w-[620px] text-3xl font-bold leading-[1.08] tracking-tight text-text-main sm:text-4xl md:text-5xl lg:mx-0 lg:text-[52px]">
             Forklift Inspection
             <br />
             Checklist
           </h1>
 
           {/* Description */}
-          <p className="mt-4 max-w-[560px] text-sm leading-relaxed text-text-muted sm:mt-6 sm:text-base lg:text-lg">
+          <p className="mx-auto mt-4 max-w-[560px] text-sm leading-relaxed text-text-muted sm:mt-6 sm:text-base lg:mx-0 lg:text-lg">
             This checklist helps teams perform consistent inspections and
             identify issues before their equipment is used.
           </p>
 
           {/* Buttons */}
-          <div className="mt-6 flex flex-row items-center gap-2.5 sm:mt-8 sm:gap-4">
+          <div className="mt-6 flex flex-row items-center justify-center gap-2.5 sm:mt-8 sm:gap-4 lg:justify-start">
             <a
               href="#checklist"
-              className="flex-1 rounded-md bg-primary px-3.5 py-2.5 text-center text-xs font-semibold text-white whitespace-nowrap transition hover:opacity-90 sm:flex-initial sm:px-5 sm:py-3 sm:text-sm"
+              className="flex-1 rounded-md bg-primary px-3.5 py-2.5 text-center text-xs font-semibold text-white whitespace-nowrap transition hover:opacity-90 sm:flex-initial sm:px-6 sm:py-3.5 sm:text-sm"
             >
               Get the Checklist
             </a>
 
             <a
               href="#checklist"
-              className="flex-1 rounded-md border border-border bg-white px-3.5 py-2.5 text-center text-xs font-semibold text-text-main whitespace-nowrap transition hover:bg-gray-50 sm:flex-initial sm:px-5 sm:py-3 sm:text-sm"
+              className="flex-1 rounded-md border border-border bg-white px-3.5 py-2.5 text-center text-xs font-semibold text-text-main whitespace-nowrap transition hover:bg-gray-50 sm:flex-initial sm:px-6 sm:py-3.5 sm:text-sm"
             >
               See What&apos;s Included
             </a>
@@ -50,10 +50,10 @@ export default function Hero() {
         </div>
 
         {/* Right Side: Checklist Preview */}
-        <div className="flex justify-center md:justify-end">
-          <div className="relative w-full max-w-[300px] sm:max-w-sm md:max-w-md">
+        <div className="flex justify-center lg:justify-end">
+          <div className="relative w-full max-w-[320px] sm:max-w-sm md:max-w-md">
             {/* Desktop backdrop gradient */}
-            <div className="pointer-events-none absolute -top-32 bottom-[112px] left-[20%] hidden w-[200vw] rounded-bl-[32px] bg-gradient-to-br from-[#063340] to-[#0c4a5c] md:block" />
+            <div className="pointer-events-none absolute -top-32 bottom-[112px] left-[20%] hidden w-[200vw] rounded-bl-[32px] bg-gradient-to-br from-[#063340] to-[#0c4a5c] lg:block" />
 
             {/* Frosted Glass Outer Container */}
             <div className="relative z-10 rounded-3xl bg-white/40 p-2.5 shadow-2xl shadow-slate-900/10 ring-1 ring-white/70 backdrop-blur-md sm:p-3.5">
