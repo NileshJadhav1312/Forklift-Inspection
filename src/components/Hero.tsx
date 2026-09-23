@@ -28,27 +28,6 @@ const items = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-surface">
-      {/* =========================================
-          DESKTOP-ONLY BLUE BACKGROUND SECTION
-      ========================================= */}
-      <div
-        className="
-          pointer-events-none
-          absolute
-          right-0
-          top-0
-          hidden
-          h-[86%]
-          w-[43%]
-          rounded-bl-[56px]
-          bg-gradient-to-br
-          from-[#063340]
-          to-[#0c4a5c]
-          lg:block
-          xl:w-[45%]
-        "
-      />
-
       <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-5 py-14 sm:px-6 md:py-16 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-20">
         {/* =========================================
             LEFT SIDE - HERO CONTENT
@@ -136,9 +115,29 @@ export default function Hero() {
         ========================================= */}
         <div className="flex justify-center lg:justify-end">
           <div className="relative w-full max-w-[300px] sm:max-w-sm md:max-w-md">
+            {/* Desktop-only blue background starting behind the list from the right */}
+            <div
+              className="
+                pointer-events-none
+                absolute
+                -top-32
+                -bottom-24
+                left-[20%]
+                w-[200vw]
+                hidden
+                rounded-bl-[44px]
+                bg-gradient-to-br
+                from-[#063340]
+                to-[#0c4a5c]
+                lg:block
+              "
+            />
+
             {/* Frosted Glass Outer Container */}
             <div
               className="
+                relative
+                z-10
                 rounded-3xl
                 bg-white/40
                 p-2.5
