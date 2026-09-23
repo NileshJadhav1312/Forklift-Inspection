@@ -10,7 +10,7 @@ const iconMap = {
 // Step-by-step workflow section explaining how users choose, complete, and act on inspections
 export default function HowItWorks() {
   return (
-    <section className="bg-[#ebf5f7] py-16 sm:py-20">
+    <section id="how-it-works" className="scroll-mt-10 bg-[#ebf5f7] py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <h2 className="text-center text-3xl font-bold tracking-tight text-text-main sm:text-4xl">

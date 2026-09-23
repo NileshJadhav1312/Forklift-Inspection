@@ -4,7 +4,7 @@ import trustedTeamsData from "@/data/trustedTeams.json";
 // Card component displaying an individual partner company's logo and title
 export function TeamCard({ icon, title, subtitle }) {
   return (
-    <div className="flex items-center gap-2 sm:gap-2.5">
+    <div className="flex w-fit items-center gap-2 sm:gap-2.5">
       {icon}
       <div className="text-left leading-tight">
         <div className="text-xs font-bold tracking-tight text-text-main sm:text-sm">
@@ -103,14 +103,14 @@ const iconMap = {
 // Component displaying social proof badges of organizations that trust the inspection checklist
 export default function TrustedTeams() {
   return (
-    <div className="relative z-10 border-t border-border/70 bg-surface/60 py-4 backdrop-blur-sm sm:py-7">
-      <div className="mx-auto max-w-7xl px-7 sm:px-6 lg:px-8">
+    <div className="relative z-10 border-t border-border/70 bg-surface/60 py-5 backdrop-blur-sm sm:py-8">
+      <div className="mx-auto max-w-6xl px-6 sm:px-10 lg:px-12">
         <p className="text-center text-xs font-semibold text-text-main sm:text-sm md:text-base">
           Trusted by teams that need consistent inspections
         </p>
 
         {/* Team Badges Grid */}
-        <div className="mx-auto mt-5 grid max-w-sm grid-cols-2 gap-x-6 gap-y-4 sm:max-w-none sm:grid-cols-3 sm:gap-x-6 sm:gap-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-6 xl:gap-8">
+        <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-5 justify-items-center sm:grid-cols-3 sm:gap-x-8 sm:gap-y-6 lg:grid-cols-6 lg:gap-x-8">
           {trustedTeamsData.map((team) => (
             <TeamCard
               key={team.id}

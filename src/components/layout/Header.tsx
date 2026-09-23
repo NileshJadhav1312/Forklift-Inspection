@@ -61,7 +61,7 @@ export default function Header() {
           </a>
 
           <a
-            href="#checklist"
+            href="#how-it-works"
             className="rounded-md bg-primary px-3.5 py-2 text-xs font-normal text-white transition hover:opacity-90 sm:text-sm lg:px-5 lg:py-2.5"
           >
             Get Started
@@ -124,7 +124,7 @@ export default function Header() {
             </a>
 
             <a
-              href="#checklist"
+              href="#how-it-works"
               className="w-fit rounded-md bg-primary px-5 py-2.5 text-sm font-normal text-white"
               onClick={() => setIsMenuOpen(false)}
             >
