@@ -7,13 +7,10 @@ import checklistData from "@/data/checklist.json";
 const initialItems = checklistData;
 
 // Interactive inspection checklist section managing item verification, statuses, and notes
-export default function Checklist() {
-  const [statuses, setStatuses] = useState(
-    initialItems.map(() => "pass"),
-  );
-  const [checkedItems, setCheckedItems] = useState(
-    initialItems.map(() => false),
-  );
+export default function Checklist(){
+  
+  const [statuses, setStatuses] = useState(initialItems.map(() => "pass"));
+  const [checkedItems, setCheckedItems] = useState(initialItems.map(() => false),);
 
   const handleStatusChange = (index, newStatus) => {
     const next = [...statuses];

@@ -201,10 +201,8 @@ export default function Footer() {
 }
 
 // Helper component to render a single column of links on desktop
-function FooterColumn({
-  title,
-  links,
-}) {
+function FooterColumn({title,links,})
+{
   return (
     <div className="col-span-2">
       <h3 className="text-xs font-bold uppercase tracking-wider">

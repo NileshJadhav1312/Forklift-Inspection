@@ -4,22 +4,14 @@ import { useState } from "react";
 import { Check, ChevronDown, AlertTriangle, Flag, Ban } from "lucide-react";
 
 // Individual checklist item component with checkbox, status controls, and note alerts
-export default function ChecklistItem({
-  item,
-  isChecked: controlledChecked,
-  onToggleCheck,
-  status: controlledStatus,
-  onStatusChange,
-  isLast = false,
-}) {
+export default function ChecklistItem({ item,isChecked: controlledChecked,onToggleCheck, status: controlledStatus, onStatusChange, isLast = false,}) {
+  
   const [internalChecked, setInternalChecked] = useState(false);
   const [internalStatus, setInternalStatus] = useState("pass");
   const [noteValue, setNoteValue] = useState("");
 
-  const checked =
-    controlledChecked !== undefined ? controlledChecked : internalChecked;
-  const status =
-    controlledStatus !== undefined ? controlledStatus : internalStatus;
+  const checked = controlledChecked !== undefined ? controlledChecked : internalChecked;
+  const status =  controlledStatus !== undefined ? controlledStatus : internalStatus;
 
   const handleToggleCheck = () => {
     if (onToggleCheck) {

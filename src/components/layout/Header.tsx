@@ -4,16 +4,16 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 // Main application header providing branding, navigation links, and responsive mobile menu
-export default function Header() {
+export default function Header() 
+{
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <header className="border-b border-border bg-white">
       <div className="mx-auto flex h-[70px] max-w-7xl items-center justify-between px-5 sm:px-6 lg:h-[76px] lg:px-8">
 
         {/* Logo */}
         <a
-          href="#"
+          href=""
           className="text-xl font-black tracking-tight text-text-main sm:text-2xl lg:text-[26px]"
         >
           InspectPro

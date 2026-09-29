@@ -2,12 +2,7 @@ import { ClipboardList, AlertTriangle, FileText, Layers } from "lucide-react";
 import Card from "@/components/ui/Card";
 import featuresData from "@/data/features.json";
 
-const iconMap = {
-  ClipboardList,
-  AlertTriangle,
-  FileText,
-  Layers,
-};
+const iconMap = { ClipboardList, AlertTriangle, FileText, Layers };
 
 // Features section highlighting key inspection benefits in a responsive grid of cards
 export default function Features() {
