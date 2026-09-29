@@ -3,18 +3,18 @@
     "step": "01 —",
     "icon": "FileText",
     "title": "Choose your checklist",
-    "description": "Choose your checklist to ces-zoct 01 — Choose your checklist."
+    "description": "Select the appropriate pre-shift or operational checklist tailored for your specific forklift model and facility."
   },
   {
     "step": "02 —",
     "icon": "SearchCheck",
     "title": "Complete the inspection",
-    "description": "Compate the inepecter the inspection and complete the inspection."
+    "description": "Operators inspect critical mechanical and safety checkpoints, recording pass, monitor, or fail statuses in real time."
   },
   {
     "step": "03 —",
     "icon": "FolderCheck",
     "title": "Record and act on findings",
-    "description": "Record the process and consent and esent — record and act on findings."
+    "description": "Instantly archive time-stamped inspection logs and automatically flag defects for immediate maintenance attention."
   }
 ]

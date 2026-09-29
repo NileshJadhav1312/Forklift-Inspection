@@ -117,7 +117,7 @@ export default function ChecklistItem({ item,isChecked: controlledChecked,onTogg
             type="text"
             value={noteValue}
             onChange={(e) => setNoteValue(e.target.value)}
-            placeholder={item.note || "Add a open note (optional)"}
+            placeholder={item.note || "Add an optional note..."}
             className="h-9 w-full rounded-lg border border-border bg-white px-3 text-xs text-text-main placeholder:text-gray-400 transition-colors duration-200 hover:border-primary focus:border-primary focus:outline-none"
           />
         )}

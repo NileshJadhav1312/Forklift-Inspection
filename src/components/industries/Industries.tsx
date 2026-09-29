@@ -15,7 +15,7 @@ export default function Industries() {
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <h2 className="text-center text-3xl font-bold tracking-tight text-text-main sm:text-4xl">
-          Built for teams that inspect equipment every day
+          Built for teams that inspect equipment every day.
         </h2>
 
         {/* 3 Industry Cards Grid */}

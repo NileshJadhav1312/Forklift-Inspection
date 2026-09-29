@@ -1,22 +1,6 @@
 import React from "react";
+import TeamCard from "@/components/ui/TeamCard";
 import trustedTeamsData from "@/data/trustedTeams.json";
-
-// Card component displaying an individual partner company's logo and title
-export function TeamCard({ icon, title, subtitle }) {
-  return (
-    <div className="flex w-fit items-center gap-2 sm:gap-2.5">
-      {icon}
-      <div className="text-left leading-tight">
-        <div className="text-xs font-bold tracking-tight text-text-main sm:text-sm">
-          {title}
-        </div>
-        <div className="text-[10px] font-semibold text-text-main sm:text-xs">
-          {subtitle}
-        </div>
-      </div>
-    </div>
-  );
-}
 
 const iconMap = {
   apex: (

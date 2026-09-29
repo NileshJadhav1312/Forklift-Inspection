@@ -13,10 +13,10 @@ export default function SubHeroSection() {
           {/* Left Column: Descriptive Paragraphs */}
           <div className="space-y-4 text-sm leading-relaxed text-text-muted sm:text-base lg:col-span-7">
             <p>
-              Forklift Inspection Checklist lists teams perform peotsstent safety on and moriiil nspection are safety and compliance.
+              A forklift inspection checklist provides equipment operators and warehouse teams with a systematic method to conduct thorough pre-shift safety examinations.
             </p>
             <p>
-              Forklift Inspection set benefits concentt restore safety and compliance our sinplator erquirement.
+              Routine daily inspections help identify mechanical defects early, prevent hazardous workplace incidents, and ensure full compliance with occupational health and safety standards.
             </p>
           </div>
 
@@ -30,10 +30,7 @@ export default function SubHeroSection() {
 
               {/* Callout Text */}
               <p className="text-xs leading-relaxed text-text-main sm:text-sm">
-                Key impcotence are octenns·ls consince being regulatory requirements are osst to{" "}
-                <strong className="font-bold text-text-main">
-                  regulatory requirements.
-                </strong>
+                OSHA regulations (29 CFR 1910.178) require all powered industrial trucks to be inspected prior to each shift to ensure safe operational status.
               </p>
             </div>
           </div>

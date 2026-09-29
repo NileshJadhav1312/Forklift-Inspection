@@ -2,43 +2,43 @@
   {
     "id": 1,
     "title": "Forks and mast",
-    "description": "Description or sensor of Forks and mast.",
-    "note": "Add a open note (optional)",
+    "description": "Inspect for cracks, bends, proper chain tension, and hydraulic leaks.",
+    "note": "Add an optional note...",
     "noteType": "input"
   },
   {
     "id": 2,
     "title": "Tires and wheels",
-    "description": "Description or inspection of Tires and wheels.",
+    "description": "Check tire pressure, tread wear, cuts, chunking, and missing lug nuts.",
     "note": "Use note here...",
     "noteType": "input"
   },
   {
     "id": 3,
     "title": "Brakes",
-    "description": "Description or inspection and brakes.",
-    "note": "Keed need maintenance",
+    "description": "Test service brakes, parking brake, and emergency deadman switch.",
+    "note": "Brake pedal travel requires adjustment",
     "noteType": "alert"
   },
   {
     "id": 4,
     "title": "Steering",
-    "description": "Description or steering mechanism and steering.",
+    "description": "Verify smooth steering response with no excessive play or binding.",
     "note": "Use note here...",
     "noteType": "input"
   },
   {
     "id": 5,
     "title": "Warning devices",
-    "description": "Description of operations of warning devices.",
-    "note": "Need a maintenance",
+    "description": "Verify horn, reverse backup alarm, strobe light, and headlights.",
+    "note": "Backup alarm volume low, scheduled for review",
     "noteType": "warning"
   },
   {
     "id": 6,
     "title": "Seat belt / restraint",
-    "description": "Description or condition of seat belt / restraint.",
-    "note": "Add a open note (optional)",
+    "description": "Ensure seat belt latches securely, retracts smoothly, and webbing is intact.",
+    "note": "Add an optional note...",
     "noteType": "input"
   }
 ]

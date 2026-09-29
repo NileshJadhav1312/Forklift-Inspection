@@ -3,24 +3,24 @@
     "id": "standardize",
     "icon": "ClipboardList",
     "title": "Standardize inspections",
-    "description": "Standardize inspections consistent, incpections, undenvistens, and equipment."
+    "description": "Ensure consistent daily checks across your fleet to maintain equipment safety and compliance."
   },
   {
     "id": "identify-issues",
     "icon": "AlertTriangle",
     "title": "Identify issues early",
-    "description": "Identify icsues early for mocsure and consistent; ertentten eopearing staciates."
+    "description": "Detect mechanical defects and safety hazards early before they turn into costly repairs or downtime."
   },
   {
     "id": "records-organized",
     "icon": "FileText",
     "title": "Keep inspection records organized",
-    "description": "Keep inspection records organized, and inspection records orgensed."
+    "description": "Maintain clear, accessible inspection logs to ensure your facility is always audit-ready."
   },
   {
     "id": "simple-process",
     "icon": "Layers",
     "title": "Give teams a simple process to follow",
-    "description": "Give teams a simple precess narvoooront procois precess to follow."
+    "description": "Provide operators with an intuitive, step-by-step checklist to complete before every shift."
   }
 ]

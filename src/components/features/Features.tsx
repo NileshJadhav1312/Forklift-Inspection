@@ -15,8 +15,8 @@ export default function Features() {
             Make every forklift inspection consistent
           </h2>
           <p className="mt-3.5 text-xs text-text-muted sm:text-sm sm:leading-relaxed">
-            Make sure forklift uneornessnxant consistent and inspections prevenders
-            for the equipment tisnniters.
+            Make sure forklift is consistent and inspections prevents issues
+            with the equipment.
           </p>
         </div>
 

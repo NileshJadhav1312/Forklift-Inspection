@@ -4,8 +4,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 // Main application header providing branding, navigation links, and responsive mobile menu
-export default function Header() 
-{
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="border-b border-border bg-white">
@@ -69,8 +68,7 @@ export default function Header()
         </div>
 
         {/* Mobile Menu Button */}
-        <button
-          type="button"
+        <button type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-text-main md:hidden"
           aria-label="Toggle navigation"
